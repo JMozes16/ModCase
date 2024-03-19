@@ -29,6 +29,6 @@ RST : D8
 DC : D9  
 CS : D10  
 CLK : D13  
-DIN : D12  
+DIN : D11  
 GND : GND  
 VCC : 3V3  
