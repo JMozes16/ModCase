@@ -10,9 +10,25 @@
 ### 4.01 EPD Front
 ![IMG_5784 (1)](https://github.com/JMozes16/ModCase/assets/85561037/346aba6c-1c69-43a6-a489-89a7e8614113)
 
-### Driver Hat Connection
+### Driver HAT Connection
 ![IMG_5785 (1)](https://github.com/JMozes16/ModCase/assets/85561037/4a5dcced-dc98-4ae7-a1e4-a6c63286ed05)
 
 
 ### Important note
 The Arduino nano only has a memory of 32Kb. And to cover the entire 4.01 inch EPD, there are 256Kb required, so an ESP32 or Raspberry Pi need to be looked into to get full display images.
+
+### Connection (ePaper Driver HAT rev2.3 to Arduino NANO)
+
+On ePaper Driver HAT:  
+Display config : B  
+Interface config : 0  
+
+PWR : D6  
+BUSY : D7  
+RST : D8  
+DC : D9  
+CS : D10  
+CLK : D13  
+DIN : D12  
+GND : GND  
+VCC : 3V3  
