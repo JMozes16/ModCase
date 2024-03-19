@@ -17,13 +17,8 @@
 ### Important note
 The Arduino nano only has a memory of 32Kb. And to cover the entire 4.01 inch EPD, there are 256Kb required, so an ESP32 or Raspberry Pi need to be looked into to get full display images.
 
-### Connection (ePaper Driver HAT rev2.3 to Arduino NANO)
+### Connection (4.2 inch ePaper Module rev2.1 V2 to Arduino NANO)
 
-On ePaper Driver HAT:  
-Display config : B  
-Interface config : 0  
-
-PWR : D6  
 BUSY : D7  
 RST : D8  
 DC : D9  
