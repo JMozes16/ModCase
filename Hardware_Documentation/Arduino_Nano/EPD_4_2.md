@@ -1,18 +1,13 @@
 ## EPD 4.2 inch 3 color hardware:
 
-
 ### Arduino Nano
-![IMG_5786](https://github.com/JMozes16/ModCase/assets/85561037/9328c10f-beee-4809-85c9-60a0ee90a224)
+![IMG_5786](https://github.com/JMozes16/ModCase/assets/85561037/70c8da3e-7211-4619-9a42-e0f6db115bc7)
 
-### 4.01 EPD Setup
-![IMG_5783 (1)](https://github.com/JMozes16/ModCase/assets/85561037/7f49bb91-272c-416b-8f27-6dfcc8b983db)
+### 4.2 EPD Front
+![IMG_5787](https://github.com/JMozes16/ModCase/assets/85561037/5b546c97-cfa4-4a3e-af61-ca5c6eeafd98)
 
-### 4.01 EPD Front
-![IMG_5784 (1)](https://github.com/JMozes16/ModCase/assets/85561037/346aba6c-1c69-43a6-a489-89a7e8614113)
-
-### Driver HAT Connection
-![IMG_5785 (1)](https://github.com/JMozes16/ModCase/assets/85561037/4a5dcced-dc98-4ae7-a1e4-a6c63286ed05)
-
+### 4.2 EPD Back
+![IMG_5788](https://github.com/JMozes16/ModCase/assets/85561037/4bc9e0af-2da2-4dbe-9a1b-626d0efb11be)
 
 ### Important note
 The Arduino nano only has a memory of 32Kb. And to cover the entire 4.01 inch EPD, there are 256Kb required, so an ESP32 or Raspberry Pi need to be looked into to get full display images.
